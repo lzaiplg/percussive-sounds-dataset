@@ -1,2 +1,3 @@
 # percussive-sounds-dataset
 A novel percussion-based approach for pipeline leakage detection with lightweight convolutional neural network
+The raw audio signals were divided into training, validation, and test sets. Each case consisted of 270 samples, of which 162 were assigned to the training set, 54 to the validation set, and the remaining 54 to the testing set. Three data augmentation methods were employed: adding noise, time shifting, and time stretching. After data augmentation, the dataset size increased significantly, resulting in 4536 samples for the training set and 1512 samples for each of the validation and test sets.
